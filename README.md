@@ -14,9 +14,8 @@ This project presents a comprehensive analysis of the **Cardiotocography dataset
 ## ⚙️ Project Structure
 
 - `CTG.xlsx`: Raw dataset with multiple sheets (description, normalized data, raw data)
-- `EDA_and_Clustering.ipynb`: Exploratory data analysis, data preprocessing, and clustering
-- `Classification_Keras.ipynb`: Neural network-based classification using Keras
-- `plots/`: Visualizations of feature distributions, clustering results, and classification performance
+- `cardiotocography_analysis.ipynb`: Exploratory data analysis, data preprocessing, clustering and neural network-based classification using Keras
+- `images/`: Visualizations of feature distributions, clustering results, and classification performance
 
 ## 🔍 Methodology
 
@@ -51,23 +50,23 @@ Applied unsupervised learning techniques to identify structure in data:
 #### 📈 Clustering Visuals
 
 <div align="center">
-  <img src="boxplot.png" width="380"/><br>
+  <img src="images/boxplot.png" width="380"/><br>
   <em>Box Plot of Features</em>
 </div>
 
 <div align="center">
-  <img src="histogramnsp.png" width="300"/><br>
+  <img src="images/histogramnsp.png" width="300"/><br>
   <em>Histogram of NSP Class</em>
 </div>
 
 <div align="center">
-  <img src="histogramfhr.png" width="200"/><br>
+  <img src="images/histogramfhr.png" width="200"/><br>
   <em>Histogram of FHR Class</em>
 </div>
 
 
 <div align="center">
-  <img src="pcabirch.png" width="300"/><br>
+  <img src="images/pcabirch.png" width="300"/><br>
   <em>Confusion matrix of Birch algorithm with PCA applied on selected characteristics (components=3)</em>
 </div>
 
@@ -115,6 +114,4 @@ A deep learning model was built using **Keras**:
 2. Install required libraries:
     ```bash
     pip install -r requirements.txt
-3. Open and run the notebook:
-    ```bash
-    jupyter lab
+3. Open and run the notebook

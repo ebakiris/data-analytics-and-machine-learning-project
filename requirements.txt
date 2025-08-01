@@ -1,0 +1,31 @@
+# Core data manipulation and analysis
+pandas>=1.3.0
+numpy>=1.21.0
+
+# Excel file reading
+xlrd>=2.0.0
+
+# Data visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Scientific computing and statistics
+scipy>=1.7.0
+
+# Machine learning
+scikit-learn>=1.0.0
+
+# Clustering optimization
+kneed>=0.7.0
+
+# Deep learning (based on the report mentioning Keras)
+tensorflow>=2.8.0
+keras>=2.8.0
+
+# Jupyter notebook support
+jupyter>=1.0.0
+notebook>=6.4.0
+
+# Additional utilities that might be needed
+openpyxl>=3.0.0  # For modern Excel file support
+ipykernel>=6.0.0  # For Jupyter kernel support
