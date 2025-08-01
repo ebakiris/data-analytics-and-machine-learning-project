@@ -51,23 +51,23 @@ Applied unsupervised learning techniques to identify structure in data:
 #### 📈 Clustering Visuals
 
 <div align="center">
-  <img src="images/boxplot.png" width="380"/><br>
+  <img src="boxplot.png" width="380"/><br>
   <em>Box Plot of Features</em>
 </div>
 
 <div align="center">
-  <img src="images/histogramnsp.png" width="300"/><br>
+  <img src="histogramnsp.png" width="300"/><br>
   <em>Histogram of NSP Class</em>
 </div>
 
 <div align="center">
-  <img src="images/histogramfhr.png" width="200"/><br>
+  <img src="histogramfhr.png" width="200"/><br>
   <em>Histogram of FHR Class</em>
 </div>
 
 
 <div align="center">
-  <img src="images/pcabirch.png" width="300"/><br>
+  <img src="pcabirch.png" width="300"/><br>
   <em>Confusion matrix of Birch algorithm with PCA applied on selected characteristics (components=3)</em>
 </div>
 
